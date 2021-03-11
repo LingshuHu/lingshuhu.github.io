@@ -5,5 +5,40 @@ title: Lingshu Hu
 <div class="blurb">
 	<h1>Hi there, I'm Lingshu Hu!</h1>
 	<p>I'm a PhD Candidate at the <em>Missouri School of Journalism</em>. My research focuses on computational methods, media analytics, social media, and digital public. <a href="/about">Read more about me...</a></p>
-	<img src="images/tweets_num_density.png" width="1080" height="560" alt="Stickman">
+
+
+	<img id="slide_photo" src="images/Slide1.jpeg">
+
+
 </div><!-- /.blurb -->
+
+
+<script language =javascript >
+ 
+var i=0;//图片索引
+var arr=new Array();    //图片列表
+ 
+arr[0]="images/Slide1.jpeg";
+arr[1]="images/Slide2.jpeg";
+arr[2]="images/Slide3.jpeg";
+ 
+ 
+function slide_photos()
+{
+    var photo=document.getElementById("slide_photo");
+    if (i==arr.length-1) 
+    {
+        i=0;
+    }
+    else
+    {
+        i+=1;
+    }
+    photo.src=arr[i];    //直接定义图片
+}
+ 
+//重新加载的时间
+setInterval("slide_photos()",2000);
+ 
+
+</script>
