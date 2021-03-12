@@ -50,7 +50,6 @@ ul {
 .imgbox {
          display: grid;
          height: 100%;
-         margin: 60px auto;
 }
 .center-fit {
              max-width: 100%;
