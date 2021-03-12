@@ -47,12 +47,4 @@ ul {
     line-height: 1.5em;
 }
 
-#photo{
-    float:left;
-    width:40%;
-}
 
-#intro{
-    float:right;
-    width:60%;
-}
