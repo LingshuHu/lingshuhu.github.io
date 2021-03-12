@@ -46,3 +46,12 @@ ul {
     font-size: 1.2em;
     line-height: 1.5em;
 }
+
+.photo{
+    float:left;
+    width:20%;
+}
+.intro{
+    float:right;
+    width:80%;
+}
