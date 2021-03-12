@@ -52,7 +52,7 @@ ul {
     height: 100%;
 }
 
-.profile-photo{
+#profile-photo{
     float:left;
     width:40%;
 }
@@ -63,7 +63,7 @@ ul {
     margin: auto;
 }
 
-.intro{
+#intro{
     float:right;
     width:60%;
 }
