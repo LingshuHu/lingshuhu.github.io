@@ -48,20 +48,23 @@ ul {
 }
 
 .imgbox {
-         display: grid;
-         height: 100%;
+    display: grid;
+    height: 100%;
 }
-.center-fit {
-             max-width: 100%;
-             max-height: 100vh;
-             margin: auto;
-}
-#photo{
+
+.profile-photo{
+    display: grid;
     float:left;
     width:40%;
 }
 
-#intro{
+.center-fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+
+.intro{
     float:right;
     width:60%;
 }
