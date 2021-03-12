@@ -53,7 +53,6 @@ ul {
 }
 
 .profile-photo{
-    display: grid;
     float:left;
     width:40%;
 }
