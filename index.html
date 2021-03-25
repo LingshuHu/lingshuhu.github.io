@@ -13,8 +13,8 @@ title: Lingshu Hu
 
 <script language =javascript >
  
-var i=0;//图片索引
-var arr=new Array();    //图片列表
+var i=0;//picture index
+var arr=new Array();    //picture list
  
 arr[0]="images/Slide1.jpeg";
 arr[1]="images/Slide4.jpeg";
@@ -33,10 +33,10 @@ function slide_photos()
     {
         i+=1;
     }
-    photo.src=arr[i];    //直接定义图片
+    photo.src=arr[i];    //select picture
 }
  
-//重新加载的时间
+//time for reloading
 setInterval("slide_photos()",5000);
  
 
